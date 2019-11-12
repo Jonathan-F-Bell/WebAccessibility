@@ -1,0 +1,16 @@
+---
+# Front Matter
+layout: default
+title: Home
+---
+
+<h1>All items should appear below.</h1>
+
+<hr>
+{% for item in site.items %}
+<div>
+    <h2>{{ item.name }}</h2>
+    <h3>{{ item.description }}</h3>
+    {{ item.content }}
+</div>
+{% endfor %}
