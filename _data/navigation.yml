@@ -1,4 +1,6 @@
-- name: Home
-  link: /WebAccessibility/
-- name: About
-  link: /WebAccessibility/about.html
+- name: Color
+  link: "#color"
+- name: "Design"
+  link: "#design"
+- name: Code
+  link: "#code"
