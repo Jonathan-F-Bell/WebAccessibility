@@ -22,6 +22,19 @@ hr {
   margin-block-start: 0.1em;
 }
 
+a {
+  color: rgb(35, 98, 159);
+}
+
+a:hover {
+  color: rgb(44, 124, 201);
+}
+
+a:visited {
+  color: rgb(17, 46, 75);
+}
+
+
 #content {
   max-width: 65%;
   margin: 0 auto;
@@ -62,6 +75,10 @@ nav a {
   padding-bottom: 0.1em;
 }
 
+nav a:visited {
+  color: #000000;
+}
+
 nav a:hover, nav a:focus {
   -webkit-box-shadow: inset 0px -2em 0px 0px rgba(0,0,0,1);
   -moz-box-shadow: inset 0px -2em 0px 0px rgba(0,0,0,1);
@@ -84,6 +101,7 @@ p.intro {
 
 
 
+
 /* Media Queries */
 
 /* Dark Mode Code */
@@ -96,6 +114,19 @@ p.intro {
   svg .st0{fill:#ffffff;stroke:#ffffff;stroke-miterlimit:10;}
   svg .st1{fill:#1c1c1e;stroke:#ffffff;}
 
+  a {
+    color: rgb(44, 124, 201);
+  }
+  
+  a:hover {
+    color: rgb(35, 98, 159);
+    
+  }
+  
+  a:visited {
+    color: rgb(68, 91, 124);
+  }
+
   /*nav*/
   nav a {
     color: #ffffff;
@@ -105,6 +136,10 @@ p.intro {
     -moz-box-shadow: inset 0px -0px 0px 0px rgba(255,255,255,1);
     box-shadow: inset 0px -0px 0px 0px rgba(255,255,255,1);
     
+  }
+
+  nav a:visited {
+    color: #ffffff;
   }
 
   nav a:hover, nav a:focus {
