@@ -12,3 +12,5 @@ Color contrast is also extremely important in web accessible design. Ensure that
 According to one [source](https://www.rgd.ca/database/files/library/RGD_AccessAbility_Handbook.pdf), 5% of people exhibit actual color blindness – textures and patterns are great alternatives and substitutes to help relay important information.
 
 [Source](https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94)
+
+{% include colorContrastExample.html %}

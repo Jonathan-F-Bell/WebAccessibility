@@ -99,6 +99,38 @@ p.intro {
   font-size: 1.1em;
 }
 
+.exampleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contentBox {
+  margin: 30px;
+}
+
+.contentBox img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.boxContent {
+  max-width: 300px;
+  height: auto;
+}
+
+.boxContent p {
+  margin: 10px;
+}
+
+.box1Content {
+  border-bottom: 4px solid red;
+}
+
+.box2Content {
+  border-bottom: 4px solid green;
+}
+
 
 
 
