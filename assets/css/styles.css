@@ -22,6 +22,13 @@ hr {
   margin-block-start: 0.1em;
 }
 
+code {
+  font-family: monospace;
+  background-color: rgb(0,0,0,0.1);
+  padding: 2px;
+  border-radius: 4px;
+}
+
 a {
   color: rgb(35, 98, 159);
 }
@@ -160,6 +167,10 @@ p.intro {
   
   a:visited {
     color: rgb(68, 91, 124);
+  }
+
+  code {
+    background-color: rgb(255,255,255,0.1);
   }
 
   /*nav*/
