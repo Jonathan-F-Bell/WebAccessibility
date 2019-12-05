@@ -1,6 +1,6 @@
-- name: Color
-  link: "#color"
-- name: "Design"
-  link: "#design"
-- name: Code
-  link: "#code"
+- name: Tips
+  link: "/WebAccessibility/"
+- name: Forum
+  link: "/WebAccessibility/forum.html"
+- name: Checker
+  link: "/WebAccessibility/checker.html"
